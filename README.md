@@ -18,23 +18,22 @@ $ python nPuzzleSolver.py bfs 0,1,2,3,4,5,6,7,8
 
 Prepresent the puzzle
 
------ | ----- | -----
-|1|2
-3|4|5
-6|7|8
+|   | 1 | 2 |
+|---|---|---|
+| 3 | 4 | 5 |
+| 6 | 7 | 8 |
 
 where 0 is the blankspace
 
 This implementation treats the goal state as:
 
------ | ----- | -----
-1|2|3
-4|5|6
-7|8|
+| 1 | 2 | 3 |
+|---|---|---|
+| 4 | 5 | 6 |
+| 7 | 8 |   |
 
 ### Returns:
-* Path to the goal
-In the next version, I will make some ccriterias to evaluate each type of algorithm.
+* Path to the goal. In the next version, I will make some ccriterias to evaluate each type of algorithm.
 
 
 ## Why I do this ? 
